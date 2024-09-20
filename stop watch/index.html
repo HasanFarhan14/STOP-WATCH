@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="background-color: rosybrown;"> STOP WATCH </h1>
+    <div >
+        <h1 id="hour" style="background-color: wheat;">0</h1>
+        <h1 id="min"  style="background-color: wheat;" >0</h1>
+        <h1 id="sec"  style="background-color: wheat;" >0</h1>
+        <h1 id="msec"  style="background-color: wheat;" >0</h1>
+    </div>
+
+    <div>
+        <button onclick="Start() " id="start" style="padding: 5px; border: 3px; background-color: rosybrown;"> START </button>
+        
+        <button onclick="Pause()" id="pause" style="padding: 5px; border: 3px; background-color: rosybrown;" >PAUSE</button>
+        <button onclick="Reset()" id="reset" style="padding: 5px; border: 3px; background-color: rosybrown;" >RESET</button>
+    </div>
+    <script src="app.js"></script>
+   
+
+</body>
+
+</html>

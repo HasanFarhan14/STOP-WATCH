@@ -1,0 +1,10 @@
+body{
+    background-color:darkslategrey;
+    text-align: center;
+    border: 5px;
+}
+h1{
+    width: 150px;
+    background-color: bisque;
+    display: inline-block;
+}
